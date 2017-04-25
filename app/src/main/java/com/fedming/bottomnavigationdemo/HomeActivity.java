@@ -87,8 +87,8 @@ public class HomeActivity extends AppCompatActivity {
 
         adapter.addFragment(new Frag1());
         adapter.addFragment(new Frag2());
-        adapter.addFragment(new Frag2());
-        adapter.addFragment(new Frag2());
+        adapter.addFragment(new Frag3());
+        adapter.addFragment(new Frag4());
         viewPager.setAdapter(adapter);
     }
 }
